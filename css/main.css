@@ -236,14 +236,18 @@
 
 .boton-contacto{
     background: #353A85;
-    color: #FFFFFF;
-    font-family: 'Lato', sans-serif;
-    font-size: 0.9rem;
     padding: 0.8rem;
     width: 45%;
     border-radius: 0.6rem;
     border: none;
     margin-top: 1.5rem;
+}
+
+.boton-contacto a{
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.9rem;
+    text-decoration: none;
 }
 
 .linea-dos{
@@ -332,6 +336,111 @@ width: 100%;
     font-family: 'Lato', sans-serif;
     color: #FFFFFF;
     font-size: 0.8rem;
+}
+
+/*------- PAGINA CONTACTO -------*/
+
+.nav-contacto{
+    background-color: #090D2D;
+    text-align: center;
+}
+
+.contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #353A85;
+    height: 100vh;
+}
+
+.info-contacto-uno{
+    width: 70%;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.info-contacto-uno h1{
+    font-weight: 700;
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+
+.info-contacto-uno p{
+    font-size: 0.8rem;
+    color: #FFFFFF;
+}
+
+.contenedor-formulario {
+    width: 80%;
+    padding: 20px;
+    background-color: transparent;
+    text-align: right;
+}
+
+label{
+    margin: 1.5rem 0;
+}
+
+input{
+    outline: none;
+}
+
+textarea{
+    outline: none;
+}
+
+.label-contacto {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input-contacto, .mensaje {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    box-sizing: border-box;
+}
+
+.mensaje {
+    height: 150px;
+    resize: none;
+}
+
+.input-boton[type="submit"] {
+    background-color: #8CABEF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.input-boton:hover {
+    background-color: #bfcce7;
+}
+
+.info-contacto-dos{
+    margin-top: 1rem;
+    width: 70%;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.info-contacto-dos h2{
+    font-weight: 700;
+    font-size: 1rem;
+    color: #8CABEF;
+}
+
+.info-contacto-dos p{
+    font-size: 0.8rem;
+    color: #FFFFFF;
 }
 
 /*------- MEDIAQRY TABLET -------*/
@@ -427,14 +536,18 @@ width: 100%;
     .boton-contacto-pc{
         display: block;
         background: #353A85;
-        color: #FFFFFF;
-        font-family: 'Lato', sans-serif;
-        font-size: 0.9rem;
         padding: 0.8rem;
         width: 45%;
         border-radius: 0.6rem;
         border: none;
         margin-top: 1.5rem;
+    }
+
+    .boton-contacto-pc a{
+        color: #FFFFFF;
+        font-family: 'Lato', sans-serif;
+        font-size: 1rem;
+        text-decoration: none;
     }
 
     .info-producto-dos{
@@ -488,4 +601,24 @@ width: 100%;
     .linea-tres{
         width: 30%;
     }
+
+    .info-contacto-uno{
+        width: 60%;
+    }
+    
+    
+    .contenedor-formulario {
+        width: 40%;
+
+    }
+    
+    
+    .info-contacto-dos{
+        display: flex;
+        justify-content: center;
+        width: 60%;
+        gap: 1rem;
+    }
+    
+
 }
