@@ -1,0 +1,482 @@
+/*------- RESET -------*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*------- HEADER -------*/
+
+
+
+.btn-menu{
+    border: 1px solid #B0C4F2;
+}
+
+.icono-menu-color{
+    color:#B0C4F2;
+}
+
+.nav-gral{
+    background-color: #090D2D;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+.nav-gral ul li{
+    margin: 0 1rem;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.9rem;
+}
+
+.menu-color{
+    color: #FFFFFF;
+}
+
+.menu-color:hover{
+    text-decoration: underline ;
+    color: #FFFFFF;  
+}
+
+.logo{
+    width: 150px;
+    height: auto;
+    padding: 1rem;
+}
+
+.nav-gral button:focus{
+    box-shadow: none;
+
+}
+
+/*------- NOSOTROS -------*/
+
+.contenedor-nosotros{
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/fondo-azul-holograma-mapa-mundo-digitaces.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 3rem;
+}
+
+.contenedor-nosotros h1{
+    margin-bottom: 2rem;
+    width: 60%;
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+}
+
+/*------- SERVICIOS -------*/
+.contenedor-servicios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.contenedor-servicios p {
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    width: 80%;
+    text-align: center;
+    color: #040D5B;
+    margin: 2rem 0;
+}
+
+.contenedor-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+
+.card-servicios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #A0A0A0;
+    border-radius: 1.5rem;
+    width: 40%;
+    height: auto;
+    padding: 1rem;
+    margin: 1rem 0;
+    background: #FFFFFF;
+}
+
+.card-servicios img{
+    width: 130px;
+}
+
+.card-servicios h3{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+    color: #353A85;
+    margin-top: 1.5rem;
+}
+
+.card-servicios button{
+    border: none;
+    background: none;
+}
+
+.btn-rotate {
+    transition: transform 0.5s ease-in-out;
+  }
+  
+.btn-rotate.rotate {
+    transform: rotate(180deg);
+  }
+
+.card-servicios button img{
+    width: 1rem;
+    height: auto;
+}
+
+.card-informacion{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    height: auto;
+}
+
+
+.card-informacion p{
+    font-family: 'Lato', sans-serif;
+    font-size: 0.8rem;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+/*------- PRODUCTO -------*/
+
+.contenedor-producto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7rem;
+}
+
+.contenedor-producto-uno{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-producto h2{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #040D5B;
+}
+
+.info-producto-uno{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem;
+    width: 70%;
+}
+
+.info-producto-uno h3{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    align-self: flex-start;
+}
+
+.linea-uno{
+    border-top: 4px solid #D67086;
+    opacity: 1;
+    width: 15%;
+    align-self: flex-start;
+}
+
+.info-producto-uno p{
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+}
+
+.info-producto-dos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    width: 70%;
+}
+
+.img-producto{
+    border-radius: 1rem;
+    width: 100%;
+    height: auto;
+}
+
+.boton-contacto-pc{
+    display: none;
+}
+
+.boton-contacto{
+    background: #353A85;
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.9rem;
+    padding: 0.8rem;
+    width: 45%;
+    border-radius: 0.6rem;
+    border: none;
+    margin-top: 1.5rem;
+}
+
+.linea-dos{
+    border-top: 4px solid #D67086;
+    opacity: 1;
+    width: 15%;
+    margin-top: 4rem;
+}
+
+.contenedor-producto-dos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.info-producto-tres{
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.info-producto-tres img{
+width: 100%;
+}
+
+.lista-paises{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3.5rem;
+}
+
+.lista-paises ul{
+    list-style-image:url(../img/bullet-02.svg);
+}
+
+.lista-paises ul li{
+    font-family: 'Lato', sans-serif;
+    font-size: 0.8rem;
+}
+
+/*------- CONTACTO -------*/
+
+.contenedor-contacto{
+    display: flex;
+    flex-direction: column;
+    background-color: #B0C4F2;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 0;
+    width: 100vw;
+}
+
+.contenedor-contacto h2{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #000000;
+}
+
+/*------- FOOTER -------*/
+
+.contenedor-footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #090D2D;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 0;
+    width: 100vw;
+}
+
+.i-redes{
+    color: #B0C4F2;
+    margin: 0 0.5rem;
+}
+
+.linea-tres{
+    border-top: 1px solid #B0C4F2;
+    opacity: 1;
+    width: 80%;
+}
+
+.contenedor-footer p{
+    font-family: 'Lato', sans-serif;
+    color: #FFFFFF;
+    font-size: 0.8rem;
+}
+
+/*------- MEDIAQRY TABLET -------*/
+
+@media screen and (min-width:600px){
+
+    .contenedor-nosotros{
+        justify-content: center;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .contenedor-nosotros h1{
+        margin-bottom: 5rem;
+        width: 70%;
+    }
+    
+    .contenedor-servicios{
+        background: linear-gradient(180deg, rgba(255,255,255,1) 70%, rgba(176,196,242,1) 100%);
+        padding-bottom: 5rem;
+    }
+
+    .contenedor-servicios p {
+        width: 80%;
+        font-size: 1.2rem ;
+    }
+
+    .contenedor-card{
+        flex-direction: row;
+        gap: 3rem;
+        align-items: start;
+        justify-content: center;
+        width: 100vw;
+    }
+
+    .card-servicios{
+        width: 25%;
+        
+    }
+
+    .card-informacion p{
+        font-size: 0.8rem;
+    }
+
+}
+
+/*------- MEDIAQRY PC -------*/
+@media screen and (min-width:1024px){
+
+    .contenedor-nosotros h1{
+        width: 70%;
+    }
+
+    .contenedor-servicios p {
+        width: 50%;
+        font-size: 1.5rem ;
+    }
+
+    .card-servicios{
+        width: 15%;    
+    }
+
+    .card-informacion p{
+        font-size: 1rem;
+    }
+
+    .contenedor-producto-uno{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: start;
+        width: 60%;
+        margin-top: 3rem;
+    }
+
+    .info-producto-uno{
+        align-items: start;
+        width: 50%;
+    }
+
+    
+    .info-producto-uno p{
+        font-size: 1.2rem;
+        width: 65%;
+    }
+
+    .boton-contacto-pc{
+        display: block;
+        background: #353A85;
+        color: #FFFFFF;
+        font-family: 'Lato', sans-serif;
+        font-size: 0.9rem;
+        padding: 0.8rem;
+        width: 45%;
+        border-radius: 0.6rem;
+        border: none;
+        margin-top: 1.5rem;
+    }
+
+    .info-producto-dos{
+        width: 50%;
+    }
+    
+  
+    .info-producto-dos .boton-contacto{
+        display: none;
+    }
+    
+    .linea-dos{
+        margin-bottom: 2rem;
+        width: 5%;
+    }
+
+    .contenedor-producto-dos{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: start;
+        width: 80%;
+        margin-top: 3rem;
+    }
+
+    .info-producto-tres{
+        display: flex;
+        width: 40%;
+        margin: 0;
+    }
+
+   
+    .lista-paises{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 40%;
+        margin-top: 2rem;
+    }
+
+
+    .contenedor-contacto{
+        margin-top: 3rem;
+        height: 250px;
+    }
+
+    .boton-contacto{
+        width: 15%;
+    }
+
+    .linea-tres{
+        width: 30%;
+    }
+}
