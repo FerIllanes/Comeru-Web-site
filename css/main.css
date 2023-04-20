@@ -69,10 +69,12 @@
 }
 
 .contenedor-nosotros h1{
+    margin-left: 1rem;
     margin-bottom: 2rem;
-    width: 60%;
+    width: 50%;
     color: #FFFFFF;
     font-family: 'Lato', sans-serif;
+    text-align: left;
 }
 
 /*------- SERVICIOS -------*/
@@ -87,8 +89,8 @@
 .contenedor-servicios p {
     font-family: 'Lato', sans-serif;
     font-size: 1rem;
-    width: 80%;
-    text-align: center;
+    width: 70%;
+    text-align: left;
     color: #040D5B;
     margin: 2rem 0;
 }
@@ -97,7 +99,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100vw;
+    width: 100%;
 }
 
 .card-servicios{
@@ -107,7 +109,7 @@
     align-items: center;
     border: 1px solid #A0A0A0;
     border-radius: 1.5rem;
-    width: 40%;
+    width: 45%;
     height: auto;
     padding: 1rem;
     margin: 1rem 0;
@@ -158,6 +160,7 @@
     color: #000000;
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 /*------- PRODUCTO -------*/
@@ -209,7 +212,7 @@
 
 .info-producto-uno p{
     font-family: 'Lato', sans-serif;
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 
 .info-producto-dos{
@@ -380,11 +383,13 @@ width: 100%;
 
     .contenedor-nosotros h1{
         width: 70%;
+        text-align: center;
     }
 
     .contenedor-servicios p {
         width: 50%;
         font-size: 1.5rem ;
+        text-align: center;
     }
 
     .card-servicios{
@@ -409,11 +414,15 @@ width: 100%;
         width: 50%;
     }
 
-    
-    .info-producto-uno p{
+    .info-producto-uno h3{
         font-size: 1.2rem;
+    }
+
+    .info-producto-uno p{
+        font-size: 1rem;
         width: 65%;
     }
+
 
     .boton-contacto-pc{
         display: block;
