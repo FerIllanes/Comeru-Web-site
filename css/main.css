@@ -340,12 +340,9 @@ width: 100%;
 
 /*------- PAGINA CONTACTO -------*/
 
-.nav-contacto{
-    background-color: #090D2D;
-    text-align: center;
-}
 
 .contacto{
+    margin-top: 6rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -433,7 +430,7 @@ textarea{
     margin-bottom: 2rem;
 }
 
-.info-contacto-dos a{
+.cv{
     font-weight: 700;
     font-size: 1rem;
     color: #8CABEF;
@@ -611,6 +608,12 @@ textarea{
         width: 60%;
     }
     
+    .info-contacto-uno h1{
+        font-size: 1.5rem;
+    }
+    .info-contacto-uno p{
+        font-size: 1rem;
+    }
     
     .contenedor-formulario {
         width: 40%;
@@ -624,6 +627,8 @@ textarea{
         width: 60%;
         gap: 1rem;
     }
+
+    
     
 
 }
