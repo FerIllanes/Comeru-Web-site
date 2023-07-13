@@ -321,16 +321,6 @@ width: 100%;
     width: 100vw;
 }
 
-.i-redes{
-    color: #B0C4F2;
-    margin: 0 0.5rem;
-}
-
-.linea-tres{
-    border-top: 1px solid #B0C4F2;
-    opacity: 1;
-    width: 80%;
-}
 
 .contenedor-footer p{
     font-family: 'Lato', sans-serif;
@@ -443,6 +433,20 @@ textarea{
     margin-bottom: 2rem;
 }
 
+.msj-agradecimiento{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    background-color: #353A85;
+}
+
+.msj-agradecimiento h1, h2{
+    color: #FFFFFF ;
+}
 /*------- MEDIAQRY TABLET -------*/
 
 @media screen and (min-width:600px){

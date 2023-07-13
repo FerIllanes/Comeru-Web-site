@@ -3,7 +3,7 @@
 if(isset($_POST['email'])) {
 
     // Correo electrónico al que se enviará el mensaje
-    $to = "tucorreo@tudominio.com";
+    $to = "contacto@comeruy.com";
     
     // Asunto del correo electrónico
     $subject = "Mensaje de contacto desde el sitio web";
@@ -20,5 +20,7 @@ if(isset($_POST['email'])) {
     // Enviar correo electrónico
     mail($to, $subject, $message, $headers);
 
+    header("Location: ./msj.html");
+    exit();
 }
 ?>
